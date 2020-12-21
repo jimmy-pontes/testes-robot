@@ -1,5 +1,6 @@
 *** Settings ***
 
+Documentation   Pesquisando produto na aplicação web com roboframework e Selenium
 Library         SeleniumLibrary
 Test Setup      Abrir navegador
 Test Teardown   Fechar navegador
@@ -44,4 +45,3 @@ Conferir se o produto "${PRODUTO}" foi listado no site
     Wait Until Element Is Visible   css=#center_column > h1
     Title Should Be                 Search - My Store
     Page Should Contain Link        xpath=//*[@id="center_column"]//a[@class="product-name"][contains(text(),"Blouse")]
-

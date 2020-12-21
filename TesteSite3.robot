@@ -1,5 +1,6 @@
 *** Settings ***
 
+Documentation   Testando aplicação web abrindo sub-categorias e seus respectivos produtos com robotframework e Selenium
 Library         SeleniumLibrary
 Test Setup      Abrir navegador
 Test Teardown   Fechar navegador

@@ -1,5 +1,6 @@
 *** Settings ***
 
+Documentation   Pesquisando um produto não existente na aplicação web com robotframework e Selenium
 Library         SeleniumLibrary
 Test Setup      Abrir navegador
 Test Teardown   Fechar navegador
