@@ -1,0 +1,54 @@
+Testes automatizados com Robot Framework - Documentação dos casos escritos de forma procedural
+
+TesteSite1 = Pesquisando produto na aplicação web com roboframework e Selenium
+
+Caso de Teste 01: Pesquisar produtos existentes
+    Acessar a página home do site
+    Conferir se a página home foi exibida
+    Digitar o nome do produto "Blouse" no campo de Pesquisa
+    Clicar no botão Pesquisar
+    Conferir se o produto "Blouse" foi listado no site
+
+Resultado obtido conforme o comportamento esperado.
+------------------------------------------------------------------------------
+
+TesteSite2 = Pesquisando um produto não existente na aplicação web com robotframework e Selenium
+
+Caso de Teste 02: Pesquisar produto não existente
+    Acessar a página home do site
+    Conferir se a página home foi exibida
+    Digitar o nome do produto "ItemNãoExistente" no campo de Pesquisa
+    Clicar no botão Pesquisar
+    Conferir mensagem de erro "No results were found for your search "ItemNãoExistente""
+
+Resultado obtido conforme o comportamento esperado.
+------------------------------------------------------------------------------
+
+TesteSite3 = Testando aplicação web abrindo sub-categorias e seus respectivos produtos com robotframework e Selenium
+
+Caso de Teste 03: Listar Produtos
+    Acessar a página home do site
+    Conferir se a página home foi exibida
+    Passar o mouse por cima da categoria "Women" no menu principal superior de categorias
+    Conferir se as sub-categorias foram exibidas
+    Clicar na sub-categoria "Summer Dresses"
+    Conferir se a página com os produtos da categoria selecionada foram exibidos
+
+Resultado obtido conforme o comportamento esperado.
+------------------------------------------------------------------------------
+
+TesteDesktop = Manipulando o Bloco de Notas usando robotframework e SikulyLibrary
+
+Caso de Teste: Testando Bloco de Notas
+    Clicar no menu Iniciar do Windows
+    Digitar "Bloco de Notas" e precionar a tecla ENTER
+    Digitar "PWX Tecnologia" na área em branco
+    Checar se o texto "PWX Tecnologia" está escrito na tela
+    Clicar no botão "X" para fechar e não salvar o arquivo
+
+Resultado obtido conforme o comportamento esperado.
+
+
+
+
+
