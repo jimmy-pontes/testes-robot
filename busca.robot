@@ -11,5 +11,3 @@ Buscar um restaurante
     #Checkpoint da pg correta
     Get Text        span    contains    Nunca foi tão engraçado pedir comida
     Click           text=Estou com fome!
-
-    #oi
